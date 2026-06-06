@@ -1,0 +1,26 @@
+/* JOYKOREA Board 3 Style Sheet (Inquiry Board) */
+.board_output {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+.board_output_3_tr {
+    height: 35px;
+    border-bottom: 1px dashed #ccc;
+}
+.board_output_3_tr td {
+    padding: 6px;
+    font-size: 13px;
+    color: #555;
+}
+.bd_out1 a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+.bd_out1 a:hover {
+    color: #e4393c;
+}
+.board_output_3_tr:hover {
+    background-color: #fafafa;
+}

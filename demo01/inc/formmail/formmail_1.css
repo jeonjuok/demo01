@@ -1,0 +1,48 @@
+/* JOYKOREA Formmail 1 Style Sheet */
+.formmail_table {
+    width: 100%;
+    border-top: 2px solid #333;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.formmail_table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.formmail_title {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    width: 20%;
+    color: #333;
+}
+.formmail_input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.formmail_textarea {
+    width: 90%;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.formmail_btn_area {
+    text-align: center;
+    margin-top: 20px;
+}
+.formmail_btn_area a {
+    margin: 0 5px;
+    display: inline-block;
+}
+.formmail_btn_area img {
+    border: 0;
+    transition: opacity 0.2s;
+}
+.formmail_btn_area img:hover {
+    opacity: 0.8;
+}

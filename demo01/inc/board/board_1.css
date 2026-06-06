@@ -1,0 +1,21 @@
+/* JOYKOREA Board 1 Style Sheet (Notice Board) */
+.board_output {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+.board_output th, .board_output td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+.board_output_1_tr {
+    background-color: #f9f9f9;
+}
+.bd_out1 a {
+    text-decoration: none;
+    color: #333;
+}
+.bd_out1 a:hover {
+    color: #0066cc;
+}

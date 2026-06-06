@@ -1,0 +1,35 @@
+/* JOYKOREA Board 4 Style Sheet (Gallery Board) */
+.product_board_out {
+    width: 100%;
+    margin: 20px 0;
+}
+.board_output_gallery_img {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.board_output_gallery_img:hover {
+    border-color: #bbb;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.board_output_imgs {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.board_output_gallery_subject {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.board_output_gallery_subject a {
+    text-decoration: none;
+    color: #222;
+}
+.board_output_gallery_subject a:hover {
+    color: #007bff;
+}
