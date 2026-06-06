@@ -1,0 +1,188 @@
+/* 슬라이드 이미지 높이 수정 */
+.bxslider-img {width:100%; height:650px; background-size:cover !important;}
+
+@media all and (max-width: 1920px) {
+/* 슬라이드 이미지 높이 수정 */
+.bxslider-img {width:1920px;}
+}
+
+@media all and (max-width: 1280px) {
+/* 슬라이드 이미지 높이 수정 */
+.bxslider-img {width:100%;}
+}
+
+/* 캡션 스타일 */
+.bx-caption {position: absolute; top:18%; text-align:center; letter-spacing:-0.4px; width:100%; padding:0 20px;}
+.bx-caption h2 {color:#FFF; display: block; font-size:42px; line-height:50px; font-weight:800; padding-bottom:20px;}
+.bx-caption p {color:#FFF; font-size:16px; line-height:24px; font-weight:400;}
+.bx-caption .bx-caption-btn {padding-top:40px;}
+
+/* 버튼 */
+a.slider-link { display:inline-block; padding:8px 35px; margin:0 auto; border:1px solid #FFF; color:#FFF; font-size:15px; font-weight:400;}
+a.slider-link:hover {background:rgba(255,255,255,0.3); color:#FFF;}
+
+.slider-wrap {width:100%;}
+.bx-wrapper { position: relative; width: 100%; padding: 0; *zoom: 1; -ms-touch-action: pan-y; touch-action: pan-y;}
+.bxslider img {max-width:100%; display: block; }
+.bxslider { margin: 0; padding: 0;  z-index:0;}
+
+ul.bxslider {list-style: none;}
+.bx-viewport {/*fix other elements on the page moving (on Chrome)*/ -webkit-transform: translatez(0);}
+.bx-wrapper {}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {position: absolute; bottom:30px; width: 100%;}
+
+/* LOADER */
+.bx-wrapper .bx-loading {min-height: 50px; height:100%; width:100%; position: absolute; top: 0; left: 0; z-index: 2000;}
+/* 하단 컨트롤바 */
+.bx-wrapper .bx-pager {text-align: center; font-size: .85em; font-family: Arial; font-weight: bold; color: #666; z-index:99;}
+.bx-wrapper .bx-pager.bx-default-pager a {background:none; border:3px solid #CCC; text-indent: -9999px; display: block; width:13px; height:13px; margin: 0 3px; outline: 0; -moz-border-radius:30px; -webkit-border-radius:30px; border-radius:30px;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {background:#FFF; border:2px solid #FFF;}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block; vertical-align: bottom; *zoom: 1; *display: inline;}
+.bx-wrapper .bx-pager-item {font-size: 0; line-height: 0;}
+/* 좌우 컨트롤바 (NEXT / PREV) */
+.bx-wrapper .bx-prev {left:0; background: url('../../img/_designcoco/images/controls.png') no-repeat 3px 0;}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {background-position:3px 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -63px 0;}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {background-position: -63px 0;}
+.bx-wrapper .bx-controls-direction a { position: absolute; top: 50%; margin-top:-30px; outline: 0; width:60px; height:60px; text-indent: -9999px; z-index: 9999;}
+.bx-wrapper .bx-controls-direction a.disabled {display: none;}
+/* 하단 컨트롤바 수정(STOP/START부분) */
+.bx-wrapper .bx-controls-auto {text-align: center; z-index:999999; }
+.bx-wrapper .bx-controls-auto .bx-start {display: block; text-indent: -9999px; width:20px; height:19px; outline: 0; background: url('../../img/_designcoco/images/controls.png') -120px -19px no-repeat; }
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus {background-position: -120px 0;}
+.bx-wrapper .bx-controls-auto .bx-stop {display: block; text-indent: -9999px; width:21px; height:19px; outline: 0; background: url('../../img/_designcoco/images/controls.png') -120px -57px no-repeat; margin:0;}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus {background-position: -120px -38px;}
+/* 하단 컨트롤바 수정(페이징) */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {text-align:right; width:50%; bottom:130px;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {width:50%; bottom:127px; right:0; text-align:left; padding-left:10px; display:inline-block;}
+
+
+@media all and (max-width: 1080px) {
+.bxslider-img {height:450px; background-size:auto 100% !important;} 
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {bottom:25px;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {bottom:22px;}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-prev {left:0; background: url('../../img/_designcoco/images/controls.png') no-repeat 8px 0;}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {background-position:8px 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -86px 0;}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {background-position: -86px 0;}
+.bx-wrapper .bx-controls-direction a { position: absolute; top: 50%; margin-top:-30px; outline: 0; width:40px; height:60px; text-indent: -9999px; z-index: 9999;}
+
+/* 슬로건 수정 */
+.bx-caption {top:20%;}
+.bx-caption h2 {font-size:32px; line-height:36px; padding-bottom:10px;}
+.bx-caption p {font-size:14px; line-height:20px;}
+.bx-caption .bx-caption-btn {padding-top:20px;}
+a.slider-link {padding:6px 20px; font-size:13px;}
+}
+
+@media all and (max-width: 768px) {
+.bxslider-img {height:360px;}
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption h2 {font-size:24px; line-height:30px; }
+.bx-wrapper .bx-caption p {font-size:13px; line-height:18px; padding-bottom:5px;}
+.bx-wrapper .bx-caption .bx-caption-btn {padding-top:10px;}
+/* 하단 컨트롤바 */
+.bx-wrapper .bx-pager.bx-default-pager a {border:2px solid #CCC; width:11px; height:11px;}
+}
+
+
+@media all and (max-width: 480px) {
+.bx-wrapper .bx-controls-direction a {width:30px;}
+.bx-wrapper .bx-prev {background: url('../../img/_designcoco/images/controls.png') no-repeat 0 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -90px 0;}
+}
+
+
+.bx-caption h2 {
+ -webkit-animation: moveUp 1.2s ease-in-out both;
+ -moz-animation: moveUp 1.2s ease-in-out both;
+ -o-animation: moveUp 1.2s ease-in-out both;
+ -ms-animation: moveUp 1.2s ease-in-out both;
+ animation: moveUp 1.2s ease-in-out both;
+}
+.bx-caption p {
+ -webkit-animation: moveUp2 1.2s ease-in-out both;
+ -moz-animation: moveUp2 1.2s ease-in-out both;
+ -o-animation: moveUp2 1.2s ease-in-out both;
+ -ms-animation: moveUp2 1.2s ease-in-out both;
+ animation: moveUp2 1.2s ease-in-out both;
+}
+.bx-caption-btn {
+ -webkit-animation: fadeIn 1s linear 0.5s both;
+ -moz-animation: fadeIn 1s linear 0.5s both;
+ -o-animation: fadeIn 1s linear 0.5s both;
+ -ms-animation: fadeIn 1s linear 0.5s both;
+ animation: fadeIn 1s linear 0.5s both;
+}
+@-webkit-keyframes moveUp{
+ 0% {-webkit-transform: translateY(30px);}
+ 100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes moveUp{
+ 0% {-moz-transform: translateY(30px);}
+ 100% {-moz-transform: translateY(0px);}
+}
+@-o-keyframes moveUp{
+ 0% {-o-transform: translateY(30px);}
+ 100% {-o-transform: translateY(0px);}
+}
+@-ms-keyframes moveUp{
+ 0% {-ms-transform: translateY(30px);}
+ 100% {-ms-transform: translateY(0px);}
+}
+@keyframes moveUp{
+ 0% {transform: translateY(30px);}
+ 100% {transform: translateY(0px);}
+}
+@-webkit-keyframes moveUp2 {
+ 0% {-webkit-transform: translateY(20px);}
+ 100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes moveUp2 {
+ 0% {-moz-transform: translateY(20px);}
+ 100% {-moz-transform: translateY(0px);}
+}
+@-o-keyframes moveUp2 {
+ 0% {-o-transform: translateY(20px);}
+ 100% {-o-transform: translateY(0px);}
+}
+@-ms-keyframes moveUp2 {
+ 0% {-ms-transform: translateY(20px);}
+ 100% {-ms-transform: translateY(0px);}
+}
+@keyframes moveUp2 {
+ 0% {transform: translateY(20px);}
+ 100% {transform: translateY(0px);}
+}
+@-webkit-keyframes fadeIn{
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn{
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@-o-keyframes fadeIn{
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@-ms-keyframes fadeIn{
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@keyframes fadeIn{
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800');
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
+ */
+
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Thin-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Thin-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Thin-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Thin-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Light'), local('NotoSans-Light'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Light-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 350;
+    src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-DemiLight-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Regular-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Medium-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Bold-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Kr';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Noto Sans Black'), local('NotoSans-Black'),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Black-Hestia.eot),
+    url(../img/_designcoco/fonts/eot/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../img/_designcoco/fonts/woff/NotoSansKR-Black-Hestia.woff) format('woff'),
+    url(../img/_designcoco/fonts/otf/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
+
+
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {overflow-y:scroll;}
+ol, ul, li {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+body {-webkit-text-size-adjust: none;}
+/* Box Model */
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* Basic */
+body { color: #666666; font-family:'Noto Sans KR', sans-serif; font-size:15px; font-weight:400;}
+input, textarea, select {font-weight: 300;color: #5d5d5d; font-family:'Noto Sans KR', sans-serif;}
+strong, b {color: #252122;font-weight:500;font-size:110%;}
+i, em {font-style: italic;}
+sub {position: relative;top: 0.5em;font-size: 0.8em;}
+sup {position: relative;top: -0.5em;font-size: 0.8em;}
+blockquote {border-left: solid 0.75em #dddddd;padding: 1em 0 1em 1.5em;font-style: italic;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: inherit;text-decoration: none;}
+
+a {text-decoration: none; color:#666;}
+a:hover {text-decoration: none;}
+br.clear {clear: both;}
+hr {border: 0;border-top: solid 1px #DDD; height:1px; margin: 2em 0 2em 0;}
+.clearfix {content:""; display:block; clear:both;}
