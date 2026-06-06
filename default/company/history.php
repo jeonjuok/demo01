@@ -1,219 +1,182 @@
 <?php
+$page_title = "회사연혁";
+$page_desc = "조이코리아의 연도별 설립과 성장 과정을 기록한 회사연혁 페이지입니다.";
 include_once(dirname(__DIR__) . '/config.php');
 include_once(dirname(__DIR__) . '/inc/header.php');
 ?>
-<!-- 상단 이미지 [S]-->
-<div class="sub-top-01">
-  <div class="slogan-box">
-    <h2 class="wow fadeInLeft">COMPANY</h3>
-    <p class="wow fadeInRight">온라인판매 / 전자상거래의 기준 - 조이코리아</p>
-  </div>    
-</div>
-<!-- 상단 이미지 [E]-->
-<div class="sub-page">
-   <!-- 왼쪽메뉴 [S]-->
-   <!-- 상단 탭메뉴 [S] -->
-<div class="submenu">
-<div class="container">
-   <ul>
-     <li><a href="<?=$default_path?>/company/company.php">회사소개</a></li>
-     <li><a href="<?=$default_path?>/company/ceo.php">CEO 인사말</a></li>
-     <li><a href="<?=$default_path?>/company/history.php">회사연혁</a></li>
-     <li><a href="<?=$default_path?>/company/map.php">오시는 길</a></li>
-   </ul>
-</div>
-</div>
-<!-- 상단 탭메뉴 [E] -->
-   <!-- 왼쪽메뉴 [E]-->
-   <!-- 서브 컨텐츠 [S]-->
-   <div class="sub-content">
-      <div class="title-box container">
-        <h3>회사연혁</h3>
-        <p class="navi"><i class="fa fa-home"></i> <span class="arrow-pd"><i class="fa fa-angle-right"></i></span> COMPANY <span class="arrow-pd"><i class="fa fa-angle-right"></i></span> 회사연혁</p>
-      </div>
-      <!-- 내용 [S]-->
-         <div class="history-wrap container">
-            <!-- 2018 ~ 2021 [S]-->
-            <div class="year-box">
-               <div class="tit-year">2018 ~ 2021</div>
-            </div>
-            <div class="history-box">
-               <!-- 2021년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-left">
-                     <div class="his-txt">
-                        <div class="his-year">2021년</div>
-                        <dl class="clearfix">
-                           <dt>02월</dt>
-                           <dd>중소벤처기업부 MAINBiz 인증기업 선정</dd>
-                         </dl>
-                     </div>
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                  </div>
-               </div>
-               <!-- 2021년 [E] -->
 
-               <!-- 2020년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-right">
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                     <div class="his-txt">
-                        <div class="his-year">2020년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>매출 91억3천만원 달성</dd>
-                           <dt>07월</dt>
-                           <dd>그란도노 현대백화점몰 입점</dd>
-                           <dt>05월</dt>
-                           <dd>신세계백화점 김해점입점</dd>
-                           <dt>01월</dt>
-                           <dd>겔러리아 진주/천안점 입점</dd>
-                        </dl>
-                     </div>
-                  </div>
-               </div>
-               <!-- 2020년 [E] -->
-               <!-- 2019년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-left">
-                     <div class="his-txt">
-                        <div class="his-year">2019년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>매출 46억5천만원 달성</dd>
-                           <dt>07월</dt>
-                           <dd>그란도노 CJ몰 입점</dd>
-                           <dt>05월</dt>
-                           <dd>그란도노 신세계몰 입점</dd>
-                         </dl>
-                     </div>
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                  </div>
-               </div>
-               <!-- 2019년 [E] -->
-               <!-- 2018년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-right">
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                     <div class="his-txt">
-                        <div class="his-year">2018년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>매출 33억5천만원 달성</dd> 
-                           <dt>08월</dt>
-                           <dd>그란도노 롯데,AK 백화점 온라인몰 입점</dd>
-                           <dt>05월</dt>
-                           <dd>그란도노 명품사업 진행</dd>
+<!-- 배경 Radiant 광원 효과 -->
+<div class="absolute left-1/2 top-0 -z-10 h-[500px] w-full -translate-x-1/2 bg-[radial-gradient(ellipse_60%_50%_at_50%_0%,rgba(92,117,255,0.08),rgba(255,255,255,0))]"></div>
 
-                        </dl>
-                     </div>
-                  </div>
-               </div>
-               <!-- 2018년 [E] -->
-                           </div>
-            <!-- 2018 ~ 2020 [E]-->
-            <!-- 2016 ~ 2017 [S]-->
-            <div class="year-box">
-               <div class="tit-year">2016 ~ 2017</div>
-            </div>
-            <div class="history-box">
-               <!-- 2017년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-left">
-                     <div class="his-txt">
-                        <div class="his-year">2017년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>매출 31억3천만원 달성</dd>
-                           <dt>05월</dt>
-                           <dd>도루코 공식벤더 지정</dd>
-                           <dt>04월</dt>
-                           <dd>동원F&B 천지인 공식벤더 지정</dd>
-                         </dl>
-                     </div>
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                  </div>
-               </div>
-               <!-- 2017년 [E] -->
-               <!-- 2016년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-right">
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                     <div class="his-txt">
-                        <div class="his-year">2016년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>매출 37억2천만원 달성</dd> 
-                           <dt>09월</dt>
-                           <dd>벨기에 그린팬 온라인총판 계약</dd>
-                           
-                        </dl>
-                     </div>
-                  </div>
-               </div>
-               <!-- 2016년 [E] -->
-            </div>
-            <!-- 2016 ~ 2017 [E]-->
-            <!-- 2004년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-right">
-                                       </div>
-               </div>
-               <!-- 2004년 [E] -->
-            </div>
-            <!-- 2000 ~ 2009 [E]-->
-            <!-- 1990 ~ 1999 [S]--> 
-            <div class="year-box">
-               <div class="tit-year">2014 ~ 2015</div>
-            </div>
-            <div class="history-box">
-               <!-- 1998년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-right">
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                     <div class="his-txt">
-                        <div class="his-year">2015년</div>
-                        <dl class="clearfix">
-                           <dt>04월</dt>
-                           <dd>(주)조이코리아로 법인전환</dd> 
-                        </dl>
-                     </div>
-                  </div>
-               </div>
-               <!-- 1998년 [E] -->
-               <!-- 1996년 [S] -->
-               <div class="his-list wow fadeInUp">
-                  <div class="his-left">
-                     <div class="his-txt">
-                        <div class="his-year">2014년</div>
-                        <dl class="clearfix">
-                           <dt>12월</dt>
-                           <dd>보령메디앙스 공식벤더 지정</dd>
-                           <dt>10월</dt>
-                           <dd>조이코리아 개인사업자로 출발</dd>
+<!-- 상단 서브 히어로 섹션 [S]-->
+<section class="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 pt-16 pb-8">
+  <div class="border-b border-slate-900 pb-10">
+    <span class="text-xs font-semibold uppercase tracking-wider text-brand-400">COMPANY</span>
+    <h1 class="mt-2 font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl">회사연혁</h1>
+    <p class="mt-4 text-base text-slate-400">온라인 유통 및 E-commerce 전문 벤더로서 묵묵히 걸어온 조이코리아의 발자취입니다.</p>
+  </div>
+</section>
+<!-- 상단 서브 히어로 섹션 [E]-->
 
-                        </dl>
-                     </div>
-                     <div class="his-arrow"><span class="his-round"></span></div>
-                  </div>
-               </div>
-               <!-- 1996년 [E] -->
-            </div>
-            <!-- 1990 ~ 1999 [E]-->
-         </div>
+<div class="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 pb-24">
+  <!-- 상단 세련된 탭 메뉴 [S] -->
+  <div class="mb-12 border-b border-slate-900">
+     <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+       <a href="company.php" class="border-transparent text-slate-400 hover:border-slate-800 hover:text-slate-200 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium transition">회사소개</a>
+       <a href="<?=$default_path?>/company/ceo.php" class="border-transparent text-slate-400 hover:border-slate-800 hover:text-slate-200 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium transition">CEO 인사말</a>
+       <a href="<?=$default_path?>/company/history.php" class="border-brand-500 text-brand-400 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-semibold transition">회사연혁</a>
+       <a href="<?=$default_path?>/company/map.php" class="border-transparent text-slate-400 hover:border-slate-800 hover:text-slate-200 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium transition">오시는 길</a>
+     </nav>
+  </div>
+  <!-- 상단 탭 메뉴 [E] -->
 
-      </div>
-      <!-- 내용 [E]-->
-   </div>
+  <!-- 서브 컨텐츠 본문 (SaaS 타임라인 리액토링) [S]-->
+  <div class="relative max-w-3xl mx-auto">
+     <!-- 타임라인 중앙 수직 라인 -->
+     <div class="absolute left-6 top-2 bottom-2 w-0.5 bg-gradient-to-b from-brand-600 via-indigo-600 to-slate-900"></div>
+     
+     <div class="space-y-12">
+
+        <!-- [Group 1] 2018 ~ 2021 -->
+        <div class="relative pl-16 space-y-8">
+           <!-- 큰 연도 노드 -->
+           <div class="absolute left-3.5 top-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-slate-950 ring-4 ring-brand-500">
+              <div class="h-2 w-2 rounded-full bg-brand-400"></div>
+           </div>
+           
+           <div class="space-y-1">
+              <h2 class="font-display text-2xl font-black text-white tracking-tight">2018 &mdash; 2021</h2>
+              <p class="text-xs text-brand-400 font-semibold tracking-wider uppercase">유통망 확장 및 기업 도약기</p>
+           </div>
+           
+           <!-- 연혁 카드 목록 -->
+           <div class="space-y-6">
+              
+              <!-- 2021년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2021년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">02월</span> <span>중소벤처기업부 MAINBiz(경영혁신형 중소기업) 인증기업 선정</span></li>
+                 </ul>
+              </div>
+
+              <!-- 2020년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2020년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">12월</span> <span>연간 총매출 91억 3천만원 달성</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">07월</span> <span>그란도노(Grandono) 현대백화점 공식 온라인몰 입점</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">05월</span> <span>신세계백화점 김해점 명품 유통망 입점</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">01월</span> <span>갤러리아 백화점 진주점/천안점 공식 입점</span></li>
+                 </ul>
+              </div>
+
+              <!-- 2019년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2019년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">12월</span> <span>연간 총매출 46억 5천만원 달성</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">07월</span> <span>그란도노 CJ온스타일(CJ몰) 공식 입점</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">05월</span> <span>그란도노 SSG.COM(신세계몰) 공식 입점</span></li>
+                 </ul>
+              </div>
+
+              <!-- 2018년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2018년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">12월</span> <span>연간 총매출 33억 5천만원 달성</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">08월</span> <span>그란도노 롯데온(롯데백화점몰) 및 AK몰 공식 입점</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-400 font-semibold flex-shrink-0">05월</span> <span>이태리 명품 브랜드 수입 유통(그란도노 명품사업) 개시</span></li>
+                 </ul>
+              </div>
+
+           </div>
+        </div>
+
+        <!-- [Group 2] 2016 ~ 2017 -->
+        <div class="relative pl-16 space-y-8">
+           <!-- 큰 연도 노드 -->
+           <div class="absolute left-3.5 top-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-slate-950 ring-4 ring-indigo-500">
+              <div class="h-2 w-2 rounded-full bg-indigo-400"></div>
+           </div>
+           
+           <div class="space-y-1">
+              <h2 class="font-display text-2xl font-black text-white tracking-tight">2016 &mdash; 2017</h2>
+              <p class="text-xs text-indigo-400 font-semibold tracking-wider uppercase">이커머스 비즈니스 공식 벤더 정착기</p>
+           </div>
+           
+           <!-- 연혁 카드 목록 -->
+           <div class="space-y-6">
+              
+              <!-- 2017년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2017년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-indigo-400 font-semibold flex-shrink-0">12월</span> <span>연간 총매출 31억 3천만원 달성</span></li>
+                    <li class="flex items-start gap-3"><span class="text-indigo-400 font-semibold flex-shrink-0">05월</span> <span>국내 대표 소형가전/주방/면도 브랜드 도루코(DORCO) 공식 온라인 벤더 지정</span></li>
+                    <li class="flex items-start gap-3"><span class="text-indigo-400 font-semibold flex-shrink-0">04월</span> <span>동원F&B 천지인 홍삼 공식 온라인 벤더 지정</span></li>
+                 </ul>
+              </div>
+
+              <!-- 2016년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2016년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-indigo-400 font-semibold flex-shrink-0">12월</span> <span>연간 총매출 37억 2천만원 달성</span></li>
+                    <li class="flex items-start gap-3"><span class="text-indigo-400 font-semibold flex-shrink-0">09월</span> <span>벨기에 친환경 쿡웨어 그린팬(GreenPan) 국내 온라인 독점 총판 계약 체결</span></li>
+                 </ul>
+              </div>
+
+           </div>
+        </div>
+
+        <!-- [Group 3] 2014 ~ 2015 -->
+        <div class="relative pl-16 space-y-8">
+           <!-- 큰 연도 노드 -->
+           <div class="absolute left-3.5 top-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-slate-950 ring-4 ring-slate-700">
+              <div class="h-2 w-2 rounded-full bg-slate-500"></div>
+           </div>
+           
+           <div class="space-y-1">
+              <h2 class="font-display text-2xl font-black text-white tracking-tight">2014 &mdash; 2015</h2>
+              <p class="text-xs text-slate-400 font-semibold tracking-wider uppercase">조이코리아 설립 및 태동기</p>
+           </div>
+           
+           <!-- 연혁 카드 목록 -->
+           <div class="space-y-6">
+              
+              <!-- 2015년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2015년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-slate-500 font-semibold flex-shrink-0">04월</span> <span>주식회사 조이코리아(JOYKOREA) 법인 전환 설립</span></li>
+                 </ul>
+              </div>
+
+              <!-- 2014년 -->
+              <div class="rounded-2xl border border-slate-900 bg-slate-900/10 p-6 space-y-4 hover:border-slate-800 transition duration-200">
+                 <div class="text-lg font-bold text-white font-display">2014년</div>
+                 <ul class="space-y-2.5 text-sm text-slate-400">
+                    <li class="flex items-start gap-3"><span class="text-slate-500 font-semibold flex-shrink-0">12월</span> <span>유아용품 대표 브랜드 보령메디앙스 공식 온라인 벤더 지정</span></li>
+                    <li class="flex items-start gap-3"><span class="text-slate-500 font-semibold flex-shrink-0">10월</span> <span>이커머스 비즈니스 전문 조이코리아 개인사업자로 힘찬 출발</span></li>
+                 </ul>
+              </div>
+
+           </div>
+        </div>
+
+     </div>
+  </div>
+  <!-- 서브 컨텐츠 본문 [E]-->
 </div>
-<!-- 서브 컨텐츠 [E]-->
+
 <?php
 include_once(dirname(__DIR__) . '/inc/footer.php');
-?><script language="javascript" type="text/javascript" src="/cjs/javascript.lib.js?date=1458686126"></script>
-
-            <script type="text/javascript">
-            var JsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
-            var sTime = new Date().getTime();
-            document.write(unescape("%3Cscript id='log_script' src='" + JsHost + "builderlog2-008.cafe24.com/weblog.js?uid=cponavy2&t=" + sTime + "' type='text/javascript'%3E%3C/script%3E"));
-            </script>
-        
+?>
+<script language="javascript" type="text/javascript" src="/cjs/javascript.lib.js?date=1458686126"></script>
+<script type="text/javascript">
+var JsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+var sTime = new Date().getTime();
+document.write(unescape("%3Cscript id='log_script' src='" + JsHost + "builderlog2-008.cafe24.com/weblog.js?uid=cponavy2&t=" + sTime + "' type='text/javascript'%3E%3C/script%3E"));
+</script>

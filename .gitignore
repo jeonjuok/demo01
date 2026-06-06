@@ -15,3 +15,6 @@ Thumbs.db
 # Antigravity CLI and Gemini files
 .antigravitycli/
 .gemini/
+
+# docs
+docs/
