@@ -1,4 +1,6 @@
 <?php
+$page_title = "회사개요";
+$page_desc = "조이코리아는 전자상거래 및 E-COMMERCE 리더로 국내 대기업 온라인 판매 공식벤더 및 해외명품 온라인판매 사업을 진행하고 있습니다.";
 include_once(dirname(__DIR__) . '/config.php');
 include_once(dirname(__DIR__) . '/inc/header.php');
 ?>

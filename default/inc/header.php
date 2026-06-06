@@ -1,18 +1,24 @@
+<?php
+// SEO 기본값 설정
+$seo_title = isset($page_title) ? $page_title . " | (주)조이코리아" : "조이코리아 전자상거래 전문기업";
+$seo_desc = isset($page_desc) ? $page_desc : "전자상거래 전문기업 조이코리아";
+$seo_keywords = isset($page_keywords) ? $page_keywords : "전자상거래 온라인 인터넷쇼핑몰 위탁판매 인터넷판매 온라인판매 아웃소싱업체 밴더 위탁배송 쇼핑몰운영 도소매업 판매대행 벤더사 e-commerce 상품등록 지마켓판매자 밴더사 위탁업체 위탁경영 벤더회사 이베이판매자 아웃소싱회사 온라인판매사업자 영업대행 cs대행 벤더업체 온라인위탁판매 온라인셀러 온라인판매대행 쇼핑몰대행 쇼핑몰위탁판매 쿠팡대행 온라인몰관리 인터넷위탁판매 상품등록대행 유통벤더 인터넷판매대행 이베이판매대행 네이버판매대행 아웃소싱기업 온라인상품등록 온라인대행 인터넷유통 온라인총판 온라인마케팅업체 판매대행업체 온라인벤더 오픈마켓대행 위탁판매대행 운영대행 온라인판매대행업체 식품벤더 건강식품벤더 쇼핑몰대행업체 유통대행 판매대행사이트 아웃바운드대행 오픈마켓판매대행 온라인쇼핑몰대행 쿠팡판매대행 스토어팜대행 인터넷쇼핑몰대행 영업대행사 온라인벤더 쇼핑몰위탁운영 상품위탁판매 옥션판매대행 쇼핑몰입점대행 백화점벤더 온라인쇼핑몰판매대행 건강기능식품홍보 옥션대행 네이버판매대행 인터넷판매대행업체 네이버스토어팜대행 식품벤더 오픈마켓대행사 식품판매대행 제품판매대행 온라인판매관리 판매대행사 쇼핑몰활성화 쇼핑몰대행사 오픈마켓관리대행 소셜벤더 온라인운영대행 오픈마켓운영 스토어팜운영대행 오픈마켓위탁판매 아웃소싱전문 쇼핑몰판매대행";
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="utf-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="<?=$seo_desc?>">
   <meta name="author" content="">
-  <meta name="Keywords" content="전자상거래 온라인 인터넷쇼핑몰 위탁판매 인터넷판매 온라인판매 아웃소싱업체 밴더 위탁배송 쇼핑몰운영 도소매업 판매대행 벤더사 e-commerce 상품등록 지마켓판매자 밴더사 위탁업체 위탁경영 벤더회사 이베이판매자 아웃소싱회사 온라인판매사업자 영업대행 cs대행 벤더업체 온라인위탁판매 온라인셀러 온라인판매대행 쇼핑몰대행 쇼핑몰위탁판매 쿠팡대행 온라인몰관리 인터넷위탁판매 상품등록대행 유통벤더 인터넷판매대행 이베이판매대행 네이버판매대행 아웃소싱기업 온라인상품등록 온라인대행 인터넷유통 온라인총판 온라인마케팅업체 판매대행업체 온라인벤더 오픈마켓대행 위탁판매대행 운영대행 온라인판매대행업체 식품벤더 건강식품벤더 쇼핑몰대행업체 유통대행 판매대행사이트 아웃바운드대행 오픈마켓판매대행 온라인쇼핑몰대행 쿠팡판매대행 스토어팜대행 인터넷쇼핑몰대행 영업대행사 온라인벤더 쇼핑몰위탁운영 상품위탁판매 옥션판매대행 쇼핑몰입점대행 백화점벤더 온라인쇼핑몰판매대행 건강기능식품홍보 옥션대행 네이버판매대행 인터넷판매대행업체 네이버스토어팜대행 식품벤더 오픈마켓대행사 식품판매대행 제품판매대행 온라인판매관리 판매대행사 쇼핑몰활성화 쇼핑몰대행사 오픈마켓관리대행 소셜벤더 온라인운영대행 오픈마켓운영 스토어팜운영대행 오픈마켓위탁판매 아웃소싱전문 쇼핑몰판매대행">
+  <meta name="Keywords" content="<?=$seo_keywords?>">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="(주)조이코리아">
-  <meta property="og:description" content="전자상거래 전문기업 조이코리아">
+  <meta property="og:title" content="<?=$seo_title?>">
+  <meta property="og:description" content="<?=$seo_desc?>">
   <meta property="og:image" content="<?=$default_path?>/img/_designcoco/images/og_logo.png">
-  <meta property="og:url" content=http://www.joykorea.net>
-  <title>조이코리아 전자상거래 전문기업</title>
+  <meta property="og:url" content="http://www.joykorea.net">
+  <title><?=$seo_title?></title>
   <link rel="stylesheet" href="<?=$default_path?>/inc/reset.css" />
   <link rel="stylesheet" href="<?=$default_path?>/inc/board.css" />
   <link rel="stylesheet" href="<?=$default_path?>/inc/main/main_slider.css" />

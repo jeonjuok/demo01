@@ -1,4 +1,6 @@
 <?php
+$page_title = "CEO 인사말";
+$page_desc = "조이코리아 대표이사의 인사말 페이지입니다. 최고의 전문성과 신뢰를 바탕으로 함께 성장하겠습니다.";
 include_once(dirname(__DIR__) . '/config.php');
 include_once(dirname(__DIR__) . '/inc/header.php');
 ?>
