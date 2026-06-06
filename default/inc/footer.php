@@ -1,5 +1,5 @@
 <!-- 풋터영역 [S] -->
-<footer class="mt-auto border-t border-slate-900 bg-slate-950 py-12 md:py-16">
+<footer class="mt-auto border-t border-slate-250 bg-white dark:border-slate-900 dark:bg-slate-950 py-12 md:py-16 transition-colors duration-250">
    <div class="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
          <!-- Left section: Logo and copyright info -->
@@ -8,34 +8,34 @@
                <div class="h-8 w-8 rounded-lg bg-gradient-to-tr from-brand-600 to-indigo-400 flex items-center justify-center">
                   <span class="text-white font-display font-extrabold text-sm">J</span>
                </div>
-               <span class="text-white font-display font-bold text-lg tracking-tight">JOYKOREA</span>
+               <span class="text-slate-900 dark:text-white font-display font-bold text-lg tracking-tight">JOYKOREA</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-slate-500 dark:text-slate-400">
                최고의 전문성과 신뢰를 바탕으로 함께 성장해 나가겠습니다.
             </p>
-            <p class="text-xs text-slate-500">
+            <p class="text-xs text-slate-450 dark:text-slate-500">
                Copyright &copy; JOYKOREA. All Rights Reserved.
             </p>
          </div>
          
          <!-- Middle section: Company Details -->
          <div class="space-y-3">
-            <h4 class="text-sm font-semibold text-slate-200 uppercase tracking-wider">회사 정보</h4>
-            <ul class="space-y-2 text-sm text-slate-400">
+            <h4 class="text-sm font-semibold text-slate-900 dark:text-slate-200 uppercase tracking-wider">회사 정보</h4>
+            <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
                <li>주식회사 조이코리아</li>
                <li>주소 : 서울 강남구 영동대로702 화천빌딩 803호</li>
-               <li>TEL : <a href="tel:1599-2833" class="hover:text-white transition">1599-2833</a></li>
+               <li>TEL : <a href="tel:1599-2833" class="hover:text-slate-900 dark:hover:text-white transition">1599-2833</a></li>
                <li>사업자 등록번호 : 665-87-00055</li>
             </ul>
          </div>
          
          <!-- Right section: Links -->
          <div class="space-y-3">
-            <h4 class="text-sm font-semibold text-slate-200 uppercase tracking-wider">바로가기</h4>
-            <ul class="space-y-2 text-sm text-slate-400">
-               <li><a href="<?=$default_path?>/company/company.php" class="hover:text-white transition">회사소개</a></li>
-               <li><a href="<?=$default_path?>/privacy.php" class="hover:text-white transition text-brand-400 hover:text-brand-300">개인정보처리방침</a></li>
-               <li><a href="http://builder.cafe24.com/admin/" target="_blank" class="hover:text-white transition">관리자 페이지</a></li>
+            <h4 class="text-sm font-semibold text-slate-900 dark:text-slate-200 uppercase tracking-wider">바로가기</h4>
+            <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
+               <li><a href="<?=$default_path?>/company/company.php" class="hover:text-slate-900 dark:hover:text-white transition">회사소개</a></li>
+               <li><a href="<?=$default_path?>/privacy.php" class="hover:text-slate-900 dark:hover:text-white transition text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 font-medium">개인정보처리방침</a></li>
+               <li><a href="http://builder.cafe24.com/admin/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">관리자 페이지</a></li>
             </ul>
          </div>
       </div>
@@ -45,7 +45,7 @@
 
 <!-- Go Top Button (Alpine.js integration) -->
 <div x-data="{ show: false }" @scroll.window="show = (window.pageYOffset > 500)" class="fixed bottom-6 right-6 z-50">
-   <a href="#top" x-show="show" x-transition x-cloak class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 shadow-lg transition">
+   <a href="#top" x-show="show" x-transition x-cloak class="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-slate-200 text-slate-500 hover:bg-slate-100 hover:text-slate-950 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-400 dark:hover:text-white dark:hover:border-slate-700 shadow-lg transition">
       <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
       </svg>
