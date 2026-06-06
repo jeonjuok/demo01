@@ -43,21 +43,21 @@ ul.bxslider {list-style: none;}
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block; vertical-align: bottom; *zoom: 1; *display: inline;}
 .bx-wrapper .bx-pager-item {font-size: 0; line-height: 0;}
 /* 좌우 컨트롤바 (NEXT / PREV) */
-.bx-wrapper .bx-prev {left:0; background: url('../../img/_designcoco/images/controls.png') no-repeat 3px 0;}
+.bx-wrapper .bx-prev {left:0; background: url('../../img/designcoco/images/controls.png') no-repeat 3px 0;}
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {background-position:3px 0;}
-.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -63px 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/designcoco/images/controls.png') no-repeat -63px 0;}
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {background-position: -63px 0;}
 .bx-wrapper .bx-controls-direction a { position: absolute; top: 50%; margin-top:-30px; outline: 0; width:60px; height:60px; text-indent: -9999px; z-index: 9999;}
 .bx-wrapper .bx-controls-direction a.disabled {display: none;}
 /* 하단 컨트롤바 수정(STOP/START부분) */
 .bx-wrapper .bx-controls-auto {text-align: center; z-index:999999; }
-.bx-wrapper .bx-controls-auto .bx-start {display: block; text-indent: -9999px; width:20px; height:19px; outline: 0; background: url('../../img/_designcoco/images/controls.png') -120px -19px no-repeat; }
+.bx-wrapper .bx-controls-auto .bx-start {display: block; text-indent: -9999px; width:20px; height:19px; outline: 0; background: url('../../img/designcoco/images/controls.png') -120px -19px no-repeat; }
 .bx-wrapper .bx-controls-auto .bx-start:hover,
 .bx-wrapper .bx-controls-auto .bx-start.active,
 .bx-wrapper .bx-controls-auto .bx-start:focus {background-position: -120px 0;}
-.bx-wrapper .bx-controls-auto .bx-stop {display: block; text-indent: -9999px; width:21px; height:19px; outline: 0; background: url('../../img/_designcoco/images/controls.png') -120px -57px no-repeat; margin:0;}
+.bx-wrapper .bx-controls-auto .bx-stop {display: block; text-indent: -9999px; width:21px; height:19px; outline: 0; background: url('../../img/designcoco/images/controls.png') -120px -57px no-repeat; margin:0;}
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .bx-wrapper .bx-controls-auto .bx-stop.active,
 .bx-wrapper .bx-controls-auto .bx-stop:focus {background-position: -120px -38px;}
@@ -71,10 +71,10 @@ ul.bxslider {list-style: none;}
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {bottom:25px;}
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {bottom:22px;}
 /* DIRECTION CONTROLS (NEXT / PREV) */
-.bx-wrapper .bx-prev {left:0; background: url('../../img/_designcoco/images/controls.png') no-repeat 8px 0;}
+.bx-wrapper .bx-prev {left:0; background: url('../../img/designcoco/images/controls.png') no-repeat 8px 0;}
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {background-position:8px 0;}
-.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -86px 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/designcoco/images/controls.png') no-repeat -86px 0;}
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {background-position: -86px 0;}
 .bx-wrapper .bx-controls-direction a { position: absolute; top: 50%; margin-top:-30px; outline: 0; width:40px; height:60px; text-indent: -9999px; z-index: 9999;}
@@ -100,8 +100,8 @@ a.slider-link {padding:6px 20px; font-size:13px;}
 
 @media all and (max-width: 480px) {
 .bx-wrapper .bx-controls-direction a {width:30px;}
-.bx-wrapper .bx-prev {background: url('../../img/_designcoco/images/controls.png') no-repeat 0 0;}
-.bx-wrapper .bx-next {right:0; background: url('../../img/_designcoco/images/controls.png') no-repeat -90px 0;}
+.bx-wrapper .bx-prev {background: url('../../img/designcoco/images/controls.png') no-repeat 0 0;}
+.bx-wrapper .bx-next {right:0; background: url('../../img/designcoco/images/controls.png') no-repeat -90px 0;}
 }
 
 

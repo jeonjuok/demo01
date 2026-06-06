@@ -35,11 +35,11 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container wow fadeInUp">
          <h4></h4>
-         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/_designcoco/images/page/business_01.jpg"/></div>
+         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/designcoco/images/page/business_01.jpg"/></div>
          <h4>◎ 조이코리아 특장점</h4>
          <ul class="list-img-2 lg-bottom clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/business_02.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/business_02.jpg"/></div> 
                <div class="txt">
                   <h5>축적된 노하우의 온라인판매 전문가 그룹</h5>
                   <p>조이코리아는 오랜 경험을 토대로 모든 카테고리에 대한 판매능력을 보유하고 있습니다. 
@@ -47,21 +47,21 @@ include_once(dirname(__DIR__) . '/inc/header.php');
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/business_03.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/business_03.jpg"/></div> 
                <div class="txt">
                   <h5>데이터분석을 통한 체계적인 판매</h5>
                   <p>제품의 키워드 및 트랜드 분석을 통해 판매에 관한 기획 및 마케팅 포인트를 설정합니다. 이러한 설정을 바탕으로 제품명부터 상세페이지, 타겟마케팅등을 진행합니다.</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/business_04.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/business_04.jpg"/></div> 
                <div class="txt">
                   <h5>ONE-STOP SOLUTION</h5>
                   <p> 현장업무에 최적화 되어있는 최고의 솔루션 통해 상품등록 및 유통, 물류, CS, 정산, 재고관리까지 원스톱으로 처리 해 드립니다. 고객사께서는 편히 계시기만 하면 됩니다.</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/business_05.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/business_05.jpg"/></div> 
                <div class="txt">
                   <h5>튼튼한 자본구조</h5>
                   <p>조이코리아는 높은 매출로 튼튼한 자본구조를 갖추고 있어 파트너사와 원활한 자금결제가 가능합니다. 믿을 수 있는 회사가 중요합니다.</p>
@@ -71,22 +71,22 @@ include_once(dirname(__DIR__) . '/inc/header.php');
          <h4>Business Flow</h4>
          <ul class="list-img clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_01.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_01.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_02.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_02.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_03.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_03.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_04.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_04.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_05.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_05.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/flow_06.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/flow_06.jpg"/></div> 
             </li>
             
 
@@ -94,7 +94,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 
          
       </div>
-      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></center></div>
+      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></center></div>
    </div>
 </div>
 <!-- 서브 컨텐츠 [E]-->

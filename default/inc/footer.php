@@ -42,11 +42,11 @@
       $('.submenu ul li a[href="'+current_path+'"]').addClass('active');
    });
    </script>
-    <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/wow.min.js"></script>
-    <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/main.js"></script>  
-    <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/go-top.js"></script>
-    <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/menufix.js"></script>
+    <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/wow.min.js"></script>
+    <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/main.js"></script>  
+    <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/go-top.js"></script>
+    <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/menufix.js"></script>
 
     <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
     <script type="text/javascript">

@@ -16,7 +16,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 
       <div class="bx-caption-btn"><a href="<?=$default_path?>/company/company.php" class="slider-link">바로가기</a></div>
     </div>
-    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/_designcoco/images/main_img1.jpg') center;"></div>
+    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/designcoco/images/main_img1.jpg') center;"></div>
   </div>
   <!-- 두번째 이미지 -->
   <div>
@@ -25,7 +25,7 @@ include_once(__DIR__ . '/default/inc/header.php');
       <p>귀사의 전자상거래 이젠 조이코리아에게 맡기세요.</p>
       <div class="bx-caption-btn"><a href="<?=$default_path?>/business/business1.php" class="slider-link">바로가기</a></div>
     </div>
-    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/_designcoco/images/main_img2.jpg') center;"></div>
+    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/designcoco/images/main_img2.jpg') center;"></div>
   </div>
   <!-- 세번째 이미지 -->
   <div>
@@ -34,7 +34,7 @@ include_once(__DIR__ . '/default/inc/header.php');
       <p>귀사의 전자상거래 이젠 조이코리아에게 맡기세요.</p>
       <div class="bx-caption-btn"><a href="<?=$default_path?>/business/business1.php" class="slider-link">바로가기</a></div>
     </div>
-    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/_designcoco/images/main_img3-1.jpg') center;"></div>
+    <div class="bxslider-img" style="background:url('<?=$default_path?>/img/designcoco/images/main_img3-1.jpg') center;"></div>
   </div>
   </div>
 <script>
@@ -93,7 +93,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <div class="container">
 <!-- 첫번째 배너 [S]-->
 <div class="what-box wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="100ms">
-<div class="what-img"><a href="<?=$default_path?>/naver/smartstore.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what1.jpg" alt=""/></figure></div>
+<div class="what-img"><a href="<?=$default_path?>/naver/smartstore.php"><figure><img src="<?=$default_path?>/img/designcoco/images/what1.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>스마트스토어 에이전시</h4></center>
 <p>네이버 스마트스토어 공식 운영대행을 통해 상품 등록부터 마케팅, CS까지 올인원 대행 서비스를 제공하여 매출 극대화를 돕습니다.</p>
@@ -103,7 +103,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <!-- 첫번째 배너 [E]-->
 <!-- 두번째 배너 [S]-->
 <div class="what-box wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-<div class="what-img"><a href="<?=$default_path?>/business/business1.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what2.jpg" alt=""/></figure></div>
+<div class="what-img"><a href="<?=$default_path?>/business/business1.php"><figure><img src="<?=$default_path?>/img/designcoco/images/what2.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>온라인 판매대행</h4></center>
 <p>오픈마켓 및 종합 쇼핑몰을 대상으로 한 온라인 공식 벤더 활동을 통해 최상의 유통망 확장 및 판매 프로세스를 대행합니다.</p>
@@ -112,7 +112,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <!-- 두번째 배너 [E]-->
 <!-- 세번째 배너 [S]-->
 <div class="what-box wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-<div class="what-img"><a href="<?=$default_path?>/luxury/business1.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what3.jpg" alt=""/></figure></div>
+<div class="what-img"><a href="<?=$default_path?>/luxury/business1.php"><figure><img src="<?=$default_path?>/img/designcoco/images/what3.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>해외명품사업</h4></center>
 <p>이탈리아 현지 70년 전통 파트너사와의 직배송 제휴를 통해 유명 백화점 및 온라인 명품 플랫폼에 신뢰도 높은 명품 유통망을 구축하고 있습니다.</p>
@@ -138,12 +138,12 @@ include_once(__DIR__ . '/default/inc/header.php');
 <h2><a href="<?=$default_path?>/product/product1.php">운영쇼핑몰</a></h2>
 <p>온라인몰 입점채널이 아닌 조이코리아가 직접 운영중인 쇼핑몰입니다.</p>
 <!-- 게시판 시작 -->
-<link rel="StyleSheet" href="/demo01/inc/board/board_4.css" type="text/css">
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/board/board_4.css" type="text/css">
 
 <table border="0" cellspacing="0" cellpadding="0" width="100%" class='product_board_out'>
  <tr>
   <td>
-    <tr valign='top'><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=8&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/8/1160253452_mall_01.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='/demo01/business/business.php?com_board_basic=read_form&&com_board_idx=8&com_board_id=4'>도루코공식몰   </a></span><br></td></tr></table></td><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=7&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/7/1018773828_mall_02.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='/demo01/business/business.php?com_board_basic=read_form&&com_board_idx=7&com_board_id=4'>동원천지인공식..   </a></span><br></td></tr></table></td><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=6&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/6/1595477465_mall_03.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='/demo01/business/business.php?com_board_basic=read_form&&com_board_idx=6&com_board_id=4'>그란도노공식몰   </a></span><br></td></tr></table></td></tr>
+    <tr valign='top'><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=8&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/8/1160253452_mall_01.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='<?=$demo_path?>/business/business.php?com_board_basic=read_form&&com_board_idx=8&com_board_id=4'>도루코공식몰   </a></span><br></td></tr></table></td><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=7&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/7/1018773828_mall_02.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='<?=$demo_path?>/business/business.php?com_board_basic=read_form&&com_board_idx=7&com_board_id=4'>동원천지인공식..   </a></span><br></td></tr></table></td><td style='word-break:break-all;overflow:hidden;'><table border='0' cellspacing='0' cellpadding='2' width='98%'><tr><td class='board_output_gallery_img'><a href='business/business.php?com_board_basic=read_form&&com_board_idx=6&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/6/1595477465_mall_03.jpg' border='0' width='382' height='255' class='board_output_imgs' /></a><br></td></tr><tr><td style='word-break:break-all;overflow:hidden;'><span class='board_output_gallery_subject'><a href='<?=$demo_path?>/business/business.php?com_board_basic=read_form&&com_board_idx=6&com_board_id=4'>그란도노공식몰   </a></span><br></td></tr></table></td></tr>
   </td>
  </tr>
  <!--more-->
@@ -160,14 +160,14 @@ include_once(__DIR__ . '/default/inc/header.php');
 <h4>제휴문의</h4>
 <p class="more"><a href="<?=$default_path?>/community/inquiry.php">more > </a></p>
 <div class="notice_list"><!-- 게시판 시작 -->
-<link rel="StyleSheet" href="/demo01/inc/board/board_3.css" type="text/css">
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/board/board_3.css" type="text/css">
 
 
 <table border="0" cellspacing="0" cellpadding="0" width="300" bgcolor="#FFFFFF" background="" class='board_output'>
 	<tr>
 		<td>
 			<table border='0' cellspacing='0' cellpadding='0' width='100%' class='board_output'>
-				<tr class='board_output_3_tr'><td width='1%'><img alt='' src='/demo01/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(41, "<?=$default_path?>/community/inquiry.php", "com_board_idx=41&com_board_id=3", "3", "demo01")'>제휴문의   </a> <img alt="" src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>조수아</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='/demo01/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(40, "<?=$default_path?>/community/inquiry.php", "com_board_idx=40&com_board_id=3", "3", "demo01")'>온라인 벤더문의   </a> <img alt="" src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>방현식</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='/demo01/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(39, "<?=$default_path?>/community/inquiry.php", "com_board_idx=39&com_board_id=3", "3", "demo01")'>벤더사 문의   </a> <img alt="" src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>문인규</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='/demo01/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(38, "<?=$default_path?>/community/inquiry.php", "com_board_idx=38&com_board_id=3", "3", "demo01")'>밴더 및 대행사 문의   </a> <img alt="" src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>이정은</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='/demo01/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(37, "<?=$default_path?>/community/inquiry.php", "com_board_idx=37&com_board_id=3", "3", "demo01")'>제휴문의.   </a> <img alt="" src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>구현상</td></tr>
+				<tr class='board_output_3_tr'><td width='1%'><img alt='' src='<?=$demo_path?>/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(41, "<?=$default_path?>/community/inquiry.php", "com_board_idx=41&com_board_id=3", "3", "demo01")'>제휴문의   </a> <img alt="" src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>조수아</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='<?=$demo_path?>/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(40, "<?=$default_path?>/community/inquiry.php", "com_board_idx=40&com_board_id=3", "3", "demo01")'>온라인 벤더문의   </a> <img alt="" src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>방현식</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='<?=$demo_path?>/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(39, "<?=$default_path?>/community/inquiry.php", "com_board_idx=39&com_board_id=3", "3", "demo01")'>벤더사 문의   </a> <img alt="" src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>문인규</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='<?=$demo_path?>/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(38, "<?=$default_path?>/community/inquiry.php", "com_board_idx=38&com_board_id=3", "3", "demo01")'>밴더 및 대행사 문의   </a> <img alt="" src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>이정은</td></tr><tr class='board_output_3_tr'><td width='1%'><img alt='' src='<?=$demo_path?>/img/component/board/board_3/output_ol.gif' border='0' align='absmiddle'></td><td width='71%' style='word-break:break-all;overflow:hidden;' class='bd_out1'><a href='javascript:com_board_secret_form(37, "<?=$default_path?>/community/inquiry.php", "com_board_idx=37&com_board_id=3", "3", "demo01")'>제휴문의.   </a> <img alt="" src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" align="absmiddle"/></td><td align='center' style='word-break:break-all;overflow:hidden;'>구현상</td></tr>
 			</table>
 		</td>
 	</tr>
@@ -190,7 +190,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <!-- 바로가기 아이콘 -->
 <div class="cs-movie">
 <div class="youtube-wrap">
-<div><!--<a href="www.grandono.com" target="_blank">--><img src="<?=$default_path?>/img/_designcoco/images/grandono_main.jpg" alt=www.grandono.com/></a></div>
+<div><!--<a href="www.grandono.com" target="_blank">--><img src="<?=$default_path?>/img/designcoco/images/grandono_main.jpg" alt=www.grandono.com/></a></div>
 </div>
 </div>
 </div>

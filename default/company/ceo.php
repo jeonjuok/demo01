@@ -37,7 +37,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 왼쪽 이미지 인사말 -->
       <div class="ceo container clearfix lg-bottom">
          <!-- 회사이미지 -->
-         <div class="img-left wow fadeInLeft"><img src="<?=$default_path?>/img/_designcoco/images/ceo.jpg"/></div>
+         <div class="img-left wow fadeInLeft"><img src="<?=$default_path?>/img/designcoco/images/ceo.jpg"/></div>
          <!-- 회사이미지 -->
          <!-- 설명글 -->
          <div class="ceo-txt wow fadeInRight">
@@ -54,7 +54,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 <br>모든걸 잘 팔겠다고 자신하진 않겠습니다.
 <br>정직하고 성실하게 최선을 다 할수는 있습니다.<br>믿고 맏겨주십시요!<br>감사합니다.
  <br/>
-            <div class="ceo_sign">(주)조이코리아 대표 <span class="name"><img src="<?=$default_path?>/img/_designcoco/images/signature.png"/></span></div>
+            <div class="ceo_sign">(주)조이코리아 대표 <span class="name"><img src="<?=$default_path?>/img/designcoco/images/signature.png"/></span></div>
          </div>
          <!-- 설명글 -->
       </div>

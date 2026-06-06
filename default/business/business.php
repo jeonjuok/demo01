@@ -35,7 +35,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container">
          <!-- 게시판 시작 -->
-<link rel="StyleSheet" href="/demo01/inc/board/board_4.css" type="text/css">
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/board/board_4.css" type="text/css">
 <script language="javascript" src="/cjs/board.js?com_board_id=4&template=demo01"></script>
 <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#FFFFFF" background="">
  <tr>
@@ -64,7 +64,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 							<table width="100%" border="0" cellspacing="0" cellpadding="0">
 																<tr>
 									<td valign="bottom" align="center">
-																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=8&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/8/1160253452_mall_01.jpg' width='380' height='280' border='0'></a>
+																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=8&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/8/1160253452_mall_01.jpg' width='380' height='280' border='0'></a>
 																			</td>
 								</tr>
 																<tr>
@@ -101,7 +101,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 							<table width="100%" border="0" cellspacing="0" cellpadding="0">
 																<tr>
 									<td valign="bottom" align="center">
-																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=7&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/7/1018773828_mall_02.jpg' width='380' height='280' border='0'></a>
+																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=7&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/7/1018773828_mall_02.jpg' width='380' height='280' border='0'></a>
 																			</td>
 								</tr>
 																<tr>
@@ -138,7 +138,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 							<table width="100%" border="0" cellspacing="0" cellpadding="0">
 																<tr>
 									<td valign="bottom" align="center">
-																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=6&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='/demo01/component/board/board_4/u_image/6/1595477465_mall_03.jpg' width='380' height='280' border='0'></a>
+																					<a href='<?=$default_path?>/business/business.php?com_board_basic=read_form&com_board_idx=6&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=4&&com_board_id=4'><img alt='' src='<?=$demo_path?>/component/board/board_4/u_image/6/1595477465_mall_03.jpg' width='380' height='280' border='0'></a>
 																			</td>
 								</tr>
 																<tr>
@@ -186,7 +186,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 </table>
 <!-- 게시판 끝 -->
       </div>
-      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></center></div>
+      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></center></div>
    </div>
 </div>
 <!-- 서브 컨텐츠 [E]-->

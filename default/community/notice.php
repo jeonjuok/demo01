@@ -33,8 +33,8 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container">
          <!-- 게시판 시작 -->
-<link rel="StyleSheet" href="/demo01/inc/board/board_1.css" type="text/css">
-<script language="javascript" src="/cjs/board.js?com_board_id=1&template=/demo01"></script>
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/board/board_1.css" type="text/css">
+<script language="javascript" src="/cjs/board.js?com_board_id=1&template=<?=$demo_path?>"></script>
 <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#FFFFFF" background="">
 <tr>
  <td>
@@ -149,7 +149,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 			</div>
 		</td>
 		<td class="est_btn_cell">
-			<input title="input" alt="" type='image' src='/demo01/img/component/board/board_1/search.gif' border='0' align='absmiddle'>
+			<input title="input" alt="" type='image' src='<?=$demo_path?>/img/component/board/board_1/search.gif' border='0' align='absmiddle'>
 		</td>
 	  </tr>
 	</form>

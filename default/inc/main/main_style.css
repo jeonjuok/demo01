@@ -10,7 +10,7 @@ p {font-size:14px; line-height:20px; word-break:keep-all;}
 
 /* TOP버튼 */
 #go-top {position: fixed; right:20px; bottom:20px;}
-#go-top a { width:45px; height:45px; display: block; cursor:pointer; text-align: center; font-size:10px; font-weight:600; padding-top:22px; color: #FFF; background-color:rgba(0,0,0,0.6); background-image: url(../../img/_designcoco/images/top-bg.png); background-repeat:no-repeat; background-position: center 10px; border-radius:3px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+#go-top a { width:45px; height:45px; display: block; cursor:pointer; text-align: center; font-size:10px; font-weight:600; padding-top:22px; color: #FFF; background-color:rgba(0,0,0,0.6); background-image: url(../../img/designcoco/images/top-bg.png); background-repeat:no-repeat; background-position: center 10px; border-radius:3px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
 #go-top a:hover { color: #FFF;}
 
 
@@ -50,7 +50,7 @@ a.what-btn:hover { border:1px solid #666; background:#666; color:#FFF; }
 
 
 /* 소개 영역 */
-#introduce {background:url('../../img/_designcoco/images/intro_bg.jpg') center top no-repeat; padding:80px 20px; background-attachment:fixed; background-size:cover; }
+#introduce {background:url('../../img/designcoco/images/intro_bg.jpg') center top no-repeat; padding:80px 20px; background-attachment:fixed; background-size:cover; }
 #introduce h3 {color:#FFF; font-size:34px; line-height:42px; font-weight:500; padding-bottom:20px;}
 #introduce p {color:#FFF; padding-bottom:25px;}
 #introduce .intro-box {width:100%;}

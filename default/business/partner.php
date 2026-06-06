@@ -36,93 +36,93 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <div class="partner container wow fadeInUp">
             <ul>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/11st.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/11st.jpg" /></div>
                   <p>11번가</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/gmarket.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/gmarket.jpg" /></div>
                   <p>지마켓</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/action.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/action.jpg" /></div>
                   <p>옥션</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/naver.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/naver.jpg" /></div>
                   <p>네이버스마트스토어</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/kakao.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/kakao.jpg" /></div>
                   <p>카카오톡스토어</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/coupang.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/coupang.jpg" /></div>
                   <p>쿠팡</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/wemep.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/wemep.jpg" /></div>
                   <p>위메프</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/tmon.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/tmon.jpg" /></div>
                   <p>티몬</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/ak.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/ak.jpg" /></div>
                   <p>AK몰</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/cj.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/cj.jpg" /></div>
                   <p>CJ몰</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/emart.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/emart.jpg" /></div>
                   <p>이마트몰</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/gs.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/gs.jpg" /></div>
                   <p>GS몰</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/hmall.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/hmall.jpg" /></div>
                   <p>Hmall</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/home.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/home.jpg" /></div>
                   <p>홈앤쇼핑</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/lottecom.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/lottecom.jpg" /></div>
                   <p>롯데닷컴</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/lottehome.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/lottehome.jpg" /></div>
                   <p>롯데홈쇼핑</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/lotteon.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/lotteon.jpg" /></div>
                   <p>롯데온</p>
                </li>
                <li> 
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/ns.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/ns.jpg" /></div>
                   <p>NS홈쇼핑</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/sinsegae.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/sinsegae.jpg" /></div>
                   <p>신세계몰</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/sinsegaetv.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/sinsegaetv.jpg" /></div>
                   <p>신세계TV쇼핑</p>
                </li>
                <li>
-                  <div class="pic"><img src="<?=$default_path?>/img/_designcoco/images/mall/w.jpg" /></div>
+                  <div class="pic"><img src="<?=$default_path?>/img/designcoco/images/mall/w.jpg" /></div>
                   <p>W쇼핑</p>
                </li>
 
             </ul>
       </div>
-      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></center></div>
+      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></center></div>
    </div>
 </div>
 <!-- 서브 컨텐츠 [E]-->

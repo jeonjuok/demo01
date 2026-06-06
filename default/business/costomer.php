@@ -39,35 +39,35 @@ include_once(dirname(__DIR__) . '/inc/header.php');
         <h4>고객사</h4>
          <ul class="list-img clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/customer/dorco.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/customer/dorco.jpg"/></div> 
                <div class="txt">
                   <h5>도루코</h5>
                   
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/customer/mychef.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/customer/mychef.jpg"/></div> 
                <div class="txt">
                   <h5>도루코마이셰프</h5>
                   
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/customer/chunjiin.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/customer/chunjiin.jpg"/></div> 
                <div class="txt">
                   <h5>동원F&B 천지인</h5>
                   
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/customer/awrugs.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/customer/awrugs.jpg"/></div> 
                <div class="txt">
                   <h5>AW RUGS</h5>
                   
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/customer/grandono.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/customer/grandono.jpg"/></div> 
                <div class="txt">
                   <h5>그란도노</h5>
                   
@@ -75,7 +75,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
             </li>
           </ul>
       </div>
-      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></center></div>
+      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></center></div>
 </div>
 </div>
 <!-- 서브 컨텐츠 [E]-->

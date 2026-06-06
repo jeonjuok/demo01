@@ -16,7 +16,7 @@ $seo_keywords = isset($page_keywords) ? $page_keywords : "전자상거래 온라
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?=$seo_title?>">
   <meta property="og:description" content="<?=$seo_desc?>">
-  <meta property="og:image" content="<?=$default_path?>/img/_designcoco/images/og_logo.png">
+  <meta property="og:image" content="<?=$default_path?>/img/designcoco/images/og_logo.png">
   <meta property="og:url" content="http://www.joykorea.net">
   <title><?=$seo_title?></title>
   <link rel="stylesheet" href="<?=$default_path?>/inc/reset.css" />
@@ -25,17 +25,17 @@ $seo_keywords = isset($page_keywords) ? $page_keywords : "전자상거래 온라
   <link rel="stylesheet" href="<?=$default_path?>/inc/main/main_style.css" />
   <link rel="stylesheet" href="<?=$default_path?>/inc/main/menu.css" />
   <link rel="stylesheet" href="<?=$default_path?>/inc/sub/sub_style.css" />
-  <link rel="stylesheet" href="<?=$default_path?>/img/_designcoco/css/animate.min.css" />
-  <link rel="stylesheet" href="<?=$default_path?>/img/_designcoco/css/topmenu.css" />
-  <link rel="stylesheet" href="<?=$default_path?>/img/_designcoco/fonts/font-awesome.min.css" />
-  <link rel="stylesheet" href="<?=$default_path?>/img/_designcoco/css/needpopup.min.css" />
-  <link rel="shortcut icon" href="<?=$default_path?>/img/_designcoco/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="<?=$default_path?>/img/designcoco/css/animate.min.css" />
+  <link rel="stylesheet" href="<?=$default_path?>/img/designcoco/css/topmenu.css" />
+  <link rel="stylesheet" href="<?=$default_path?>/img/designcoco/fonts/font-awesome.min.css" />
+  <link rel="stylesheet" href="<?=$default_path?>/img/designcoco/css/needpopup.min.css" />
+  <link rel="shortcut icon" href="<?=$default_path?>/img/designcoco/images/favicon.png" type="image/x-icon">
   <!--[if lt IE 9]>
-  <script src="<?=$default_path?>/img/_designcoco/js/html5shiv.js"></script>
-  <script src="<?=$default_path?>/img/_designcoco/js/respond.min.js"></script>
+  <script src="<?=$default_path?>/img/designcoco/js/html5shiv.js"></script>
+  <script src="<?=$default_path?>/img/designcoco/js/respond.min.js"></script>
   <![endif]-->       
-  <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/jquery.min.js"></script>
-  <script type="text/javascript" src="<?=$default_path?>/img/_designcoco/js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/jquery.min.js"></script>
+  <script type="text/javascript" src="<?=$default_path?>/img/designcoco/js/jquery.bxslider.min.js"></script>
 </head>
 <body id="top">
 <div id="wrap">
@@ -60,7 +60,7 @@ $seo_keywords = isset($page_keywords) ? $page_keywords : "전자상거래 온라
             <span class="icon-bar"></span>
             </button>
             <!-- 로고 [S] -->
-            <a class="navbar-brand" href="<?=$default_path?>/index.php"><h1><img src="<?=$default_path?>/img/_designcoco/images/logo.png" alt="logo"></h1></a>
+            <a class="navbar-brand" href="<?=$default_path?>/index.php"><h1><img src="<?=$default_path?>/img/designcoco/images/logo.png" alt="logo"></h1></a>
             <!-- 로고 [E] -->                    
          </div>
          <!-- 상단 카테고리 [S] -->

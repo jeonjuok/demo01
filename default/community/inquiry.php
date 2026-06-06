@@ -33,8 +33,8 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container">
          <!-- 게시판 시작 -->
-<link rel="StyleSheet" href="/demo01/inc/board/board_3.css" type="text/css">
-<script language="javascript" src="/cjs/board.js?com_board_id=3&template=/demo01"></script>
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/board/board_3.css" type="text/css">
+<script language="javascript" src="/cjs/board.js?com_board_id=3&template=<?=$demo_path?>"></script>
 <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#FFFFFF" background="">
 <tr>
  <td>
@@ -88,7 +88,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(41, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(41, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
 						</td>
 
 					
@@ -125,7 +125,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(40, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>온라인 벤더문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(40, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>온라인 벤더문의   </a></a>
 						</td>
 
 					
@@ -162,7 +162,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(39, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>벤더사 문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(39, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>벤더사 문의   </a></a>
 						</td>
 
 					
@@ -199,7 +199,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(38, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>밴더 및 대행사 문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(38, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>밴더 및 대행사 문의   </a></a>
 						</td>
 
 					
@@ -236,7 +236,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(37, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의.   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(37, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의.   </a></a>
 						</td>
 
 					
@@ -273,7 +273,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(36, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(36, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
 						</td>
 
 					
@@ -310,7 +310,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(35, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>[갤럭시아머니트리] 전자결제(PG) 서비스 도입 제안 ..   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(35, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>[갤럭시아머니트리] 전자결제(PG) 서비스 도입 제안 ..   </a></a>
 						</td>
 
 					
@@ -347,7 +347,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(34, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의 드립니다.   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(34, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의 드립니다.   </a></a>
 						</td>
 
 					
@@ -384,7 +384,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(33, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의 드립니다.   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(33, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의 드립니다.   </a></a>
 						</td>
 
 					
@@ -421,7 +421,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 				
 					
 											<td class='bbsnewf5' align='left'>
-						<img src="/demo01/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(32, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
+						<img src="<?=$demo_path?>/img/component/board/board_3/icon_sct.gif" border="0" alt=''/> 						<a href=''><a href='javascript:com_board_secret_form(32, "<?=$default_path?>/community/inquiry.php", "&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&", "3", "demo01")'>제휴문의   </a></a>
 						</td>
 
 					
@@ -457,7 +457,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
    </td>
    <td style="text-align:right;padding-top:20px;">
     <!-- 글쓰기 -->
-    <a href='<?=$default_path?>/community/inquiry.php?com_board_basic=write_form&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&' style=''><img alt='' src='/demo01/img/component/board/board_3/write.gif' border='0' /></a>
+    <a href='<?=$default_path?>/community/inquiry.php?com_board_basic=write_form&&com_board_search_code=&com_board_search_value1=&com_board_search_value2=&com_board_page=&&com_board_id=3&' style=''><img alt='' src='<?=$demo_path?>/img/component/board/board_3/write.gif' border='0' /></a>
     <!-- //글쓰기 -->
    </td>
   </tr>
@@ -483,7 +483,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 			</div>
 		</td>
 		<td class="est_btn_cell">
-			<input title="input" alt="" type='image' src='/demo01/img/component/board/board_3/search.gif' border='0' align='absmiddle'>
+			<input title="input" alt="" type='image' src='<?=$demo_path?>/img/component/board/board_3/search.gif' border='0' align='absmiddle'>
 		</td>
 	  </tr>
 	</form>

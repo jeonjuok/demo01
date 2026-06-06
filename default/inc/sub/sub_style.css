@@ -36,12 +36,12 @@
 .fc-blue {color:#00529B; font-weight:500;}
 
 /* 상단이미지 */
-.sub-top-01 {background:url('../../img/_designcoco/images/sub_top_01.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
-.sub-top-02 {background:url('../../img/_designcoco/images/sub_top_02.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
-.sub-top-03 {background:url('../../img/_designcoco/images/sub_top_03.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
-.sub-top-04 {background:url('../../img/_designcoco/images/sub_top_04.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
-.sub-top-05 {background:url('../../img/_designcoco/images/sub_top_05.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
-.sub-top-06 {background:url('../../img/_designcoco/images/sub_top_06.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-01 {background:url('../../img/designcoco/images/sub_top_01.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-02 {background:url('../../img/designcoco/images/sub_top_02.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-03 {background:url('../../img/designcoco/images/sub_top_03.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-04 {background:url('../../img/designcoco/images/sub_top_04.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-05 {background:url('../../img/designcoco/images/sub_top_05.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
+.sub-top-06 {background:url('../../img/designcoco/images/sub_top_06.jpg') center no-repeat; text-align:center; width:100%; background-size:cover;}
 
 /* 상단이미지 슬로건 */
 .slogan-box {padding:100px 0;}
@@ -75,7 +75,7 @@
 .img-right img {width:100%;}
 
 /* 주요현황 */
-.company-info {text-align:center; background:url('../../img/_designcoco/images/company_bg.jpg') center top no-repeat; padding:80px 40px; background-size:cover;}
+.company-info {text-align:center; background:url('../../img/designcoco/images/company_bg.jpg') center top no-repeat; padding:80px 40px; background-size:cover;}
 .company-info h4 {color:#FFF; padding-bottom:10px;}
 .company-info p {color:#FFF; padding-bottom:40px;}
 
@@ -120,7 +120,7 @@ ul.list-img {width:100%; font-size:0;}
 .history-wrap {}
 .year-box {text-align:center;}
 .year-box .tit-year {display:inline-block; background:#396eb3; margin:0 auto; padding:10px 30px; font-size:19px; color:#FFF; border-radius:3px;}
-.history-box {display:table; width:100%; position:relative; background:url('../../img/_designcoco/images/history_line.gif') center repeat-y; padding-bottom:80px;}
+.history-box {display:table; width:100%; position:relative; background:url('../../img/designcoco/images/history_line.gif') center repeat-y; padding-bottom:80px;}
 .history-box .his-list {width:100%; display:block; padding-top:50px;}
 .history-box .his-list:after {content:""; display:block; clear:both;}
 .his-left {width:100%; float:left; text-align:right; padding-right:49.2%;}

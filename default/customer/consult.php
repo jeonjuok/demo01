@@ -33,12 +33,12 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container">
          <!-- 폼메일 시작 --------------------------------------------------------->
-<link rel="StyleSheet" href="/demo01/inc/formmail/formmail_1.css" type="text/css">
-<script language="javascript" src="/cjs/formmail.js?com_formmail_id=1&template=/demo01"></script>
+<link rel="StyleSheet" href="<?=$demo_path?>/inc/formmail/formmail_1.css" type="text/css">
+<script language="javascript" src="/cjs/formmail.js?com_formmail_id=1&template=<?=$demo_path?>"></script>
 <table border='0' cellspacing='0' cellpadding='0' width='100%' bgcolor='#FFFFFF'>
 <form name='com_formmail' method='post' action='<?=$default_path?>/customer/consult.php?ip=115.139.186.6' enctype='multipart/form-data'>
 <input title="input" type='hidden' name='com_formmail1_basic' value='send'>
-<input title="input" type='hidden' name='template' value='/demo01'>
+<input title="input" type='hidden' name='template' value='<?=$demo_path?>'>
  <tr>
   <td>
  <table cellpadding='0' cellspacing='0' class="form-table">
@@ -233,8 +233,8 @@ include_once(dirname(__DIR__) . '/inc/header.php');
 
  </table>
    <div style="padding-top:20px; text-align:center;">
-  <a href="#" onclick="com_formmail_formCheck(); return false;"><img alt="" src='/demo01/img/_designcoco/images/btn_confirm.gif'></a>
-  <a href='javascript: document.com_formmail.reset();'><img alt="" src='/demo01/img/_designcoco/images/btn_cancel.gif'></a>
+  <a href="#" onclick="com_formmail_formCheck(); return false;"><img alt="" src='<?=$demo_path?>/img/designcoco/images/btn_confirm.gif'></a>
+  <a href='javascript: document.com_formmail.reset();'><img alt="" src='<?=$demo_path?>/img/designcoco/images/btn_cancel.gif'></a>
    </div>
   </td>
  </tr>

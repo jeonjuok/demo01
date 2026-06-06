@@ -33,7 +33,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 회사소개 -->
       <div class="company container clearfix lg-bottom wow fadeInUp">
          <!-- 회사이미지 -->
-         <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_01.jpg"/></div>
+         <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_01.jpg"/></div>
          <!-- 회사이미지 -->
          <!-- 설명글 -->
          <div class="txt">
@@ -48,11 +48,11 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 내용 [S]-->
       <div class="container wow fadeInUp">
          <center><h4>브랜드사는 <span style = " font-size:1.5em;  color: red;">왜?</span> 스마트스토어를 해야할까요?</h4></center>
-         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_02.jpg"/></div>
+         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/designcoco/images/page/naver_02.jpg"/></div>
          
          <ul class="list-img-2 lg-bottom clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_c01.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_c01.jpg"/></div> 
                <div class="txt">
                   <h5>1. 네이버만의 확실한 노출구좌</h5>
                   <p>네이버에는 여러가지 무료 노출구좌가 있습니다. 기획전, 럭키투데이, 핫딜, 타임특가등 그중 효과나 매출면에서 단연 우위에 있는 타임특가.                     
@@ -60,7 +60,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_c02.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_c02.jpg"/></div> 
                <div class="txt">
                   <h5>2. 브랜드사만 참여할 수 있는 브랜드데이</h5>
                   <p>브랜드를 소유하고 있는 기업체만 참여할 수 있는 브랜드데이. 월별, 시즌별로 기획하여 단 하루 진행하며 잘 진행될 경우 억단위 매출이 일어납니다.
@@ -68,7 +68,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_c03.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_c03.jpg"/></div> 
                <div class="txt">
                   <h5>3. 스마트스토어를 통한 라이브커머스</h5>
                   <p> 네이버 판매를 통해 스마트스토어가 파워등급 이상일때 라이브커머스를 진행 할 수 있습니다. 판매자와 고객이 실시간 소통하며 제품을 판매하고, 귀사의 브랜드를 홍보할 수 있습니다.
@@ -76,7 +76,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_c04.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_c04.jpg"/></div> 
                <div class="txt">
                   <h5>4. 네이버 검색광고를 통한 다양한 노출</h5>
                   <p>네이버의 다양한 광고를 통해 네이버 상단에 노출될 수 있으며, 네이버에서 상품 검색 시 스마트스토어가 자사몰 대비 상위로 노출되어 구매전환이 용이합니다.
@@ -88,50 +88,50 @@ include_once(dirname(__DIR__) . '/inc/header.php');
           <div class="company container clearfix lg-bottom wow fadeInUp">
          <!-- 회사이미지 -->
          <center><h4>그렇다면 정답은!&nbsp;<span style = " font-size:1.5em;  color: #00529b;">조이코리아!!</span></h4></center></div>
-         <!--<div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/naver_01.jpg"/></div>-->
+         <!--<div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/naver_01.jpg"/></div>-->
          
            <ul class="list-img clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/joytop_01.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/joytop_01.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/joytop_02.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/joytop_02.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/joytop_03.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/joytop_03.jpg"/></div> 
             </li>
            </ul>
            <br/><br/>
    
     <div class="container wow fadeInUp">
          <center><h4>스마트스토어 운영 PROCESS</h4></center>
-         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/_designcoco/images/page/process_00.jpg"/></div>
+         <div class="img-1 lg-bottom"><img src="<?=$default_path?>/img/designcoco/images/page/process_00.jpg"/></div>
    
          <ul class="list-img clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_01.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_01.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_02.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_02.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_03.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_03.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_04.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_04.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_05.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_05.jpg"/></div> 
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/page/process_06.jpg"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/page/process_06.jpg"/></div> 
             </li>
 
            </ul>
 
          
       </div>
-      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></center></div>
+      <!-- 내용 [E]--><div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><center><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></center></div>
    </div>
 </div>
 <!-- 서브 컨텐츠 [E]-->

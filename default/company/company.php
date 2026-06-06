@@ -38,7 +38,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
       <!-- 회사소개 -->
       <div class="company container clearfix lg-bottom wow fadeInUp">
          <!-- 회사이미지 -->
-         <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/company.jpg"/></div>
+         <div class="img"><img src="<?=$default_path?>/img/designcoco/images/company.jpg"/></div>
          <!-- 회사이미지 -->
          <!-- 설명글 -->
          <div class="txt">
@@ -57,35 +57,35 @@ include_once(dirname(__DIR__) . '/inc/header.php');
          <p>조이코리아의 주요현황을 알려드립니다.</p>
          <ul class="list-box5 container clearfix">
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/icon1.png"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/icon1.png"/></div> 
                <div class="txt">
                   <h5>회사명</h5>
                   <p>(주)조이코리아</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/icon2.png"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/icon2.png"/></div> 
                <div class="txt">
                   <h5>설립일</h5>
                   <p>2015년 3월 18일</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/icon3.png"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/icon3.png"/></div> 
                <div class="txt">
                   <h5>대표이사</h5>
                   <p>남 보현</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/icon4.png"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/icon4.png"/></div> 
                <div class="txt">
                   <h5>직원수</h5>
                   <p>14명</p>
                </div>
             </li>
             <li>
-               <div class="img"><img src="<?=$default_path?>/img/_designcoco/images/icon5.png"/></div> 
+               <div class="img"><img src="<?=$default_path?>/img/designcoco/images/icon5.png"/></div> 
                <div class="txt">
                   <h5>자본금</h5>
                   <p>￦ 200,000,000</p>
@@ -139,7 +139,7 @@ include_once(dirname(__DIR__) . '/inc/header.php');
             </tr>
          </table>
       
-          <div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><img src="<?=$default_path?>/img/_designcoco/images/page/1_1.jpg"/></div>
+          <div class="img-1 lg-bottom"><a href="<?=$default_path?>/customer/consult.php"><img src="<?=$default_path?>/img/designcoco/images/page/1_1.jpg"/></div>
          
          
 
