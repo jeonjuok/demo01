@@ -88,7 +88,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <section id="what-we-do">
 <div>
 <h3>JOYKOREA Business Model</h3>
-<p></p>
+<p>조이코리아는 다년간의 이커머스 노하우와 검증된 판매 실적을 바탕으로 최상의 디지털 커머스 서비스를 제공합니다.</p>
 </div>
 <div class="container">
 <!-- 첫번째 배너 [S]-->
@@ -96,7 +96,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <div class="what-img"><a href="<?=$default_path?>/naver/smartstore.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what1.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>스마트스토어 에이전시</h4></center>
-<p></p>
+<p>네이버 스마트스토어 공식 운영대행을 통해 상품 등록부터 마케팅, CS까지 올인원 대행 서비스를 제공하여 매출 극대화를 돕습니다.</p>
 
 </div>
 </div>
@@ -106,7 +106,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <div class="what-img"><a href="<?=$default_path?>/business/business1.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what2.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>온라인 판매대행</h4></center>
-<p></p>
+<p>오픈마켓 및 종합 쇼핑몰을 대상으로 한 온라인 공식 벤더 활동을 통해 최상의 유통망 확장 및 판매 프로세스를 대행합니다.</p>
 </div>
 </div>
 <!-- 두번째 배너 [E]-->
@@ -115,7 +115,7 @@ include_once(__DIR__ . '/default/inc/header.php');
 <div class="what-img"><a href="<?=$default_path?>/luxury/business1.php"><figure><img src="<?=$default_path?>/img/_designcoco/images/what3.jpg" alt=""/></figure></div>
 <div class="what-txt">
 <center><h4>해외명품사업</h4></center>
-<p></p>
+<p>이탈리아 현지 70년 전통 파트너사와의 직배송 제휴를 통해 유명 백화점 및 온라인 명품 플랫폼에 신뢰도 높은 명품 유통망을 구축하고 있습니다.</p>
 
 </div>
 </div>
